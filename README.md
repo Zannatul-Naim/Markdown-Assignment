@@ -4,11 +4,11 @@
 
 ### Some Math Equation
 
-<p align="center">
+<p align="center"> 
    $$ First\ equation: Y = X\beta+\epsilon_y ,\forall X $$
-   $$ Second Equation: X = Z\gamma + \epsilon_x $$
+   $$ Second\ equation: X = Z\gamma + \epsilon_x $$
    $$ f_1(\omega) = \frac{{\sigma^2}} {2\pi} , \omega \in [-\pi , \pi] $$
-</p>
+   </p>
 
 1. First item a. first sub-item A) first sub-sub-item b. second sub-item
 2. Second item
@@ -21,7 +21,6 @@
         - first sub-sub-item
     - second sub-item
 
-<br>
 
 ![A cat in the cage](https://camo.githubusercontent.com/e6947af48fb1f3bb4f8238ee96f307dc6ddc9c9640c373484badd0cd42a3a25d/68747470733a2f2f69636f6e732e69636f6e617263686976652e636f6d2f69636f6e732f69636f6e6b612f6d656f772f3235362f6361742d636167652d69636f6e2e706e67)
 
@@ -30,9 +29,9 @@
  library(mdsr)
  SAT_2010 %>% ggplot(aes(write,..density..)) + geom_histogram() + 
  geom_density() + theme_minimal() + labs(title = "SAT Writing Scores") 
+ 
  ```
  
- <br> <br>
  
  # Table with alignment
  
@@ -40,13 +39,12 @@
  right, or on both side of the hyphens within the header row. <br>
  
  
- | Syntax   | Description   |  Test Text |
- |:-------  | :------------:|-------:    |
+ | Syntax   |  Description  |  Test Text |
+ |:-------- | :------------:|----------: |
  |Header    |     Title     | Here's this|
  |Paragraph |     Text      | And more   |
  
- <br>
- 
+
  # Instructions
  
  6.S191 software labs are designed to be completed at your own pace. At the end of each
@@ -58,7 +56,7 @@
  
  ## License
  
- All code in this repository is copyright 2022 [MIT 6.S191 Introduction to Deep Learning.](http://introtodeeplearning.com/) . All Rights Reserved.
+ All code in this repository is copyright 2022 [MIT 6.S191 Introduction to Deep Learning](http://introtodeeplearning.com/). All Rights Reserved.
  
  Licensed under the mit License. You may not use this file except in compliance with the License.
  User and/or modification of this code outside of 6.S191 must reference:
